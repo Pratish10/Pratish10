@@ -47,7 +47,7 @@
 <tr border="none">
 <td width="50%" align="center">
   
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=pratish10&show_icons=true&locale=en" alt="pratish10" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=pratish10&theme=dark&show_icons=true&locale=en" alt="pratish10" />
   <br></br>
   <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=pratish10&theme=dark&hide_border=false" /> 
 </td>
@@ -103,7 +103,7 @@
 <!--profile visit count-->
 <div align="center">
   
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pratish10&label=Profile%20views&color=0e75b6&style=flat" alt="pratish10" /> </p>
+<p> <img src="https://komarev.com/ghpvc/?username=pratish10&label=Profile%20views&color=0e75b6&style=flat" alt="pratish10" /> </p>
   
 </div>
 
