@@ -22,8 +22,10 @@
 </div>
 
 <!--- description -->
-<div align="center">
-  <summary><p style="display: inline-block">Hi, Welcome. I’m Pratish Ninawe, and I am passionate about coding and designing new things. I have completed my bachelor's in IT with background in Full Stack Web Engineer and I am a self-taught programmer. I enjoy building customer-facing products, which enable me to have a visible impact produced by my contributions. I like steep learning curves and, in turn, the technologies on edge. My primary tech stack involves Reactjs, JavaScript for the front end and Nodejs, Postgresql for the back end. I can work on any framework with few steps of guidance.</p></summary>
+<div id="user-content-toc">
+  <ul align="center">
+    <summary><p style="display: inline-block">Hi, Welcome. I’m Pratish Ninawe, and I am passionate about coding and designing new things. I have completed my bachelor's in IT with background in Full Stack Web Engineer and I am a self-taught programmer. I enjoy building customer-facing products, which enable me to have a visible impact produced by my contributions. I like steep learning curves and, in turn, the technologies on edge. My primary tech stack involves Reactjs, JavaScript for the front end and Nodejs, Postgresql for the back end. I can work on any framework with few steps of guidance.</p></summary>
+  </ul>
 </div>
 
 <!--Intro start-->
