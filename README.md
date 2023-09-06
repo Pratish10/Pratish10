@@ -33,7 +33,7 @@
 
 - 💬 Ask me about **Reactjs, Nodejs, AWS, MongoDB, Devops**
 
-- 💬 Ask me about **AWS, react, react-native, nodejs, mongoDB**
+- 💬 Ask me about **AWS, react, nodejs, mongoDB**
 
 - 📫 How to reach me **pratish.1006@gmail.com**
 
