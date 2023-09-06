@@ -19,7 +19,7 @@
 
 - 📫 How to reach me **pratish.1006@gmail.com**
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/11dSCxeD7p5ydPSoxJ_0Kui2vFl-oW4RklmYUXuL9DpA/edit?usp=sharing](https://docs.google.com/document/d/11dSCxeD7p5ydPSoxJ_0Kui2vFl-oW4RklmYUXuL9DpA/edit?usp=sharing)
+- 📄 Know about my experiences [https://docs.google.com/document/d/11dSCxeD7p5ydPSoxJ_0Kui2vFl-oW4RklmYUXuL9DpA/edit?usp=sharing](https://docs.google.com/document/d/11dSCxeD7p5ydPSoxJ_0Kui2vFl-oW4RklmYUXuL9DpA/edit)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
