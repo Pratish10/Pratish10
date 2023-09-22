@@ -32,15 +32,13 @@
 
 - 🔭 I’m currently working on [Expense Tracker App](https://expense-tracker-app-u5b5.vercel.app/)
 
-- 🌱 I’m currently learning **Reactjs, Nodejs, Terraform, Kubernetes**
+- 🌱 I’m currently learning **Reactjs, Nodejs, Docker, Nextjs**
 
 - 👯 I’m looking to collaborate on **on any technologies or framework**
 
-- ☁️ I've keen interest in cloud computing. So,I'm learning **AWS**
+- ☁️ I've keen interest in Web development. So,I'm learning **Nextjs**
 
 - 💬 Ask me about **Reactjs, Nodejs, AWS, MongoDB, Devops**
-
-- 💬 Ask me about **AWS, react, react-native, nodejs, mongoDB**
 
 - 📫 How to reach me **pratish.1006@gmail.com**
 
