@@ -30,7 +30,7 @@
 
 <!--Intro start-->
 
-- 🔭 I’m currently working on [Expense Tracker App](https://expense-tracker-app-u5b5.vercel.app/)
+- 🔭 I’m currently working on [Expense Tracker App](https://expense-tracker-app-eta-lilac.vercel.app/)
 
 - 🌱 I’m currently learning **Reactjs, Nodejs, Docker, Nextjs**
 
