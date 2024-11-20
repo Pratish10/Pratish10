@@ -24,7 +24,7 @@
 
 <!--Intro start-->
 
-- 🔭 I’m currently working on [Food Ordering System](https://food-ordering-system-admin.vercel.app/auth/login)
+- 🔭 I’m currently working on QR Dine
 
 - 🌱 I’m currently learning **Reactjs, Nodejs, Docker, Nextjs**
 
