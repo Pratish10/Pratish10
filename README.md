@@ -26,7 +26,7 @@
 
 - 🔭 I’m currently working on QR Dine
 
-- 🌱 I’m currently learning **Reactjs, Nodejs, Docker, Nextjs**
+- 🌱 I’m currently learning **Go Lang**
 
 - 👯 I’m looking to collaborate on **on any technologies or framework**
 
