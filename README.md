@@ -23,14 +23,9 @@
 </div>
 
 <!--Intro start-->
-
-- 🔭 I’m currently working on QR Dine
-
-- 🌱 I’m currently learning **Go Lang**
-
 - 👯 I’m looking to collaborate on **on any technologies or framework**
 
-- ☁️ I've keen interest in Web development. So,I'm learning **Nextjs**
+- ☁️ I've keen interest in Web development.
 
 - 💬 Ask me about **Reactjs, Nodejs, AWS, MongoDB, Devops**
 
