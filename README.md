@@ -15,6 +15,132 @@
   </ul>
 </div>
 
+```
+class Diagram
+    enum Status {
+    GOING
+    NOT_GOING
+    WAITING
+    PENDING
+    INVITED
+    CANCELLED
+  }
+
+  enum Role {
+    CREATOR
+    MANAGER
+    READ_ONLY
+    CELEBRITY
+  }
+
+  enum VenueType {
+    PHYSICAL
+    VIRTUAL
+    LATER
+  }
+
+  class Users {
+    id: String
+    primaryEmail: String
+    secondaryEmail: String?
+    contact: String?
+    fullName: String?
+    userName: String?
+    magicToken: String?
+    refreshToken: String?
+    isCompleted: Boolean
+    location: String?
+    bio: String?
+    twitter: String?
+    instagram: String?
+    website: String?
+    profileIcon: Int
+    eventParticipationEnabled: Boolean
+    isDeleted: Boolean
+    createdAt: DateTime
+    updatedAt: DateTime
+  }
+
+  class Event {
+    id: String
+    creatorId: String
+    name: String
+    slug: String
+    category: String?
+    startTime: DateTime
+    endTime: DateTime
+    eventDate: DateTime
+    description: String?
+    eventImageUrl: String?
+    venueType: VenueType
+    venueAddress: String?
+    venueUrl: String?
+    hostPermissionRequired: Boolean
+    capacity: Int?
+    isActive: Boolean
+    isDeleted: Boolean
+    createdAt: DateTime
+    updatedAt: DateTime
+  }
+
+  class Update {
+    id: String
+    userId: String
+    eventId: String
+    content: String
+    isNotification: Boolean
+    scheduledNotificationTime: DateTime?
+    isDeleted: Boolean
+    createdAt: DateTime
+    updatedAt: DateTime
+  }
+
+  class Attendee {
+    id: String
+    userId: String
+    eventId: String
+    registrationTime: DateTime
+    hasAttended: Boolean
+    checkInTime: DateTime?
+    feedback: String?
+    qrToken: String
+    status: Status
+    allowedStatus: Boolean
+    isDeleted: Boolean
+    createdAt: DateTime
+    updatedAt: DateTime
+  }
+
+  class Cohost {
+    id: String
+    userId: String
+    eventId: String
+    role: Role
+    isDeleted: Boolean
+    createdAt: DateTime
+    updatedAt: DateTime
+  }
+
+  Users --> "1" Event : creator
+  Users --> "*" Update : updates
+  Users --> "*" Attendee : attendees
+  Users --> "*" Cohost : cohosts
+
+  Event --> "*" Update : updates
+  Event --> "*" Attendee : attendees
+  Event --> "*" Cohost : cohosts
+  Event --> "1" Users : creator
+
+  Update --> "1" Users : user
+  Update --> "1" Event : event
+
+  Attendee --> "1" Users : user
+  Attendee --> "1" Event : event
+
+  Cohost --> "1" Users : user
+  Cohost --> "1" Event : event
+```
+
 <!--- description -->
 <div id="user-content-toc">
   <ul align="center">
