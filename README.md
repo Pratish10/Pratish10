@@ -18,7 +18,7 @@
 
 ```mermaid
 classDiagram
-
+direction TB
     class BaseClass {
       - id: String
       - isDeleted: boolean
