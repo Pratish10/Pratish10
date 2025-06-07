@@ -19,134 +19,119 @@
 ```mermaid
 classDiagram
 direction TB
-    class BaseClass {
-      - id: String
-      - isDeleted: boolean
-      - createdAt: DateTime
-      - updatedAt: DateTime
-    }
 
-    class Users {
-        - id: String
-        - primaryEmail: String
-        - secondaryEmail: String?
-        - contact: String?
-        - fullName: String?
-        - userName: String?
-        - magicToken: String?
-        - refreshToken: String?
-        - isCompleted: Boolean
-        - location: String?
-        - bio: String?
-        - twitter: String?
-        - instagram: String?
-        - website: String?
-        - profileIcon: Int
-        - eventParticipationEnabled: Boolean
-        - isDeleted: Boolean
-        - createdAt: DateTime
-        - updatedAt: DateTime
-    }
+%% Base class
+class BaseClass {
+    - id: String
+    - isDeleted: Boolean
+    - createdAt: DateTime
+    - updatedAt: DateTime
+}
 
-    class Update {
-        - id: String
-        - userId: String
-        - eventId: String
-        - content: String
-        - isNotification: Boolean
-        - scheduledNotificationTime: DateTime?
-        - isDeleted: Boolean
-        - createdAt: DateTime
-        - updatedAt: DateTime
-    }
+%% Inheriting classes
+class Users {
+    - primaryEmail: String
+    - secondaryEmail: String?
+    - contact: String?
+    - fullName: String?
+    - userName: String?
+    - magicToken: String?
+    - refreshToken: String?
+    - isCompleted: Boolean
+    - location: String?
+    - bio: String?
+    - twitter: String?
+    - instagram: String?
+    - website: String?
+    - profileIcon: Int
+    - eventParticipationEnabled: Boolean
+}
 
-    class Event {
-        - id: String
-        - creatorId: String
-        - name: String
-        - slug: String
-        - category: String?
-        - startTime: DateTime
-        - endTime: DateTime
-        - eventDate: DateTime
-        - description: String?
-        - eventImageUrl: String?
-        - venueType: VenueType
-        - venueAddress: String?
-        - venueUrl: String?
-        - hostPermissionRequired: Boolean
-        - capacity: Int?
-        - isActive: Boolean
-        - isDeleted: Boolean
-        - createdAt: DateTime
-        - updatedAt: DateTime
-    }
+class Update {
+    - userId: String
+    - eventId: String
+    - content: String
+    - isNotification: Boolean
+    - scheduledNotificationTime: DateTime?
+}
 
-    class Attendee {
-        - id: String
-        - userId: String
-        - eventId: String
-        - registrationTime: DateTime
-        - hasAttended: Boolean
-        - checkInTime: DateTime?
-        - feedback: String?
-        - qrToken: String
-        - status: Status
-        - allowedStatus: Boolean
-        - isDeleted: Boolean
-        - createdAt: DateTime
-        - updatedAt: DateTime
-    }
+class Event {
+    - creatorId: String
+    - name: String
+    - slug: String
+    - category: String?
+    - startTime: DateTime
+    - endTime: DateTime
+    - eventDate: DateTime
+    - description: String?
+    - eventImageUrl: String?
+    - venueType: VenueType
+    - venueAddress: String?
+    - venueUrl: String?
+    - hostPermissionRequired: Boolean
+    - capacity: Int?
+    - isActive: Boolean
+}
 
-    class Cohost {
-        - id: String
-        - userId: String
-        - eventId: String
-        - role: Role
-        - isDeleted: Boolean
-        - createdAt: DateTime
-        - updatedAt: DateTime
-    }
+class Attendee {
+    - userId: String
+    - eventId: String
+    - registrationTime: DateTime
+    - hasAttended: Boolean
+    - checkInTime: DateTime?
+    - feedback: String?
+    - qrToken: String
+    - status: Status
+    - allowedStatus: Boolean
+}
 
-    class Status {
-        <<enum>>
-        GOING
-        NOT_GOING
-        WAITING
-        PENDING
-        INVITED
-        CANCELLED
-    }
+class Cohost {
+    - userId: String
+    - eventId: String
+    - role: Role
+}
 
-    class Role {
-        <<enum>>
-        CREATOR
-        MANAGER
-        READ_ONLY
-        CELEBRITY
-    }
+%% Enums
+class Status {
+    <<enum>>
+    GOING
+    NOT_GOING
+    WAITING
+    PENDING
+    INVITED
+    CANCELLED
+}
 
-    class VenueType {
-        <<enum>>
-        PHYSICAL
-        VIRTUAL
-        LATER
-    }
+class Role {
+    <<enum>>
+    CREATOR
+    MANAGER
+    READ_ONLY
+    CELEBRITY
+}
 
-    Users <|-- BaseClass
-    Update <|-- BaseClass
-    Event <|-- BaseClass
-    Attendee <|-- BaseClass
-    Cohost <|-- BaseClass
+class VenueType {
+    <<enum>>
+    PHYSICAL
+    VIRTUAL
+    LATER
+}
 
-    %% Relationships
-    Users "1" <-- "*" Update    : user  
-    Event "1" <-- "*" Update    : event  
-    Users "1" <-- "*" Event     : creator  
-    Event "1" <-- "*" Attendee  : attendees  
-    Users "1" <-- "*" Attendee  : user  
-    Event "1" <-- "*" Cohost    : cohosts  
-    Users "1" <-- "*" Cohost    : user
+%% Inheritance
+Users <|-- BaseClass
+Update <|-- BaseClass
+Event <|-- BaseClass
+Attendee <|-- BaseClass
+Cohost <|-- BaseClass
+
+%% Relationships
+Users "1" <-- "*" Update    : user  
+Event "1" <-- "*" Update    : event  
+Users "1" <-- "*" Event     : creator  
+Event "1" <-- "*" Attendee  : attendees  
+Users "1" <-- "*" Attendee  : user  
+Event "1" <-- "*" Cohost    : cohosts  
+Users "1" <-- "*" Cohost    : user 
 ```
 
 <!--- description -->
