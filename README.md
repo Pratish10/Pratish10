@@ -133,13 +133,20 @@ classDiagram
         LATER
     }
 
+    Users <|-- BaseClass
+    Update <|-- BaseClass
+    Event <|-- BaseClass
+    Attendee <|-- BaseClass
+    Cohost <|-- BaseClass
+
+    %% Relationships
     Users "1" <-- "*" Update    : user  
     Event "1" <-- "*" Update    : event  
     Users "1" <-- "*" Event     : creator  
     Event "1" <-- "*" Attendee  : attendees  
     Users "1" <-- "*" Attendee  : user  
     Event "1" <-- "*" Cohost    : cohosts  
-    Users "1" <-- "*" Cohost    : user  
+    Users "1" <-- "*" Cohost    : user
 ```
 
 <!--- description -->
