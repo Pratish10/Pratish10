@@ -27,7 +27,7 @@
 
 - ☁️ I've keen interest in Web development.
 
-- 💬 Ask me about **Reactjs, Nodejs, AWS, MongoDB, Devops**
+- 💬 Ask me about **Reactjs, Nodejs, AWS, MongoDB**
 
 - 📫 How to reach me **pratish.1006@gmail.com**
 
