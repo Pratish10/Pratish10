@@ -5,7 +5,7 @@
 
 ---
 
-**[Portfolio](https://pratish10.github.io/portfolio/)** · **[Résumé (PDF)](#)** · **[LinkedIn](https://www.linkedin.com/in/pratish-ninawe-6199b2220/)** · **pratish@email.com** · **Pune, India**
+**[Portfolio](https://pratish10.github.io/portfolio/)** · **[Résumé (PDF)](https://docs.google.com/document/d/19WRvDCeGVc651x5dfTY_ZHJp5T_qb5fTh-FHD7OYFiQ/export?format=pdf)** · **[LinkedIn](https://www.linkedin.com/in/pratish-ninawe)** · **pratish.1006@gmail.com**
 
 ---
 
