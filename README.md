@@ -54,16 +54,16 @@
 ## Stack I actually ship
 
 ```
-Backend & Runtime:          .NET Core (C#) Clean Architecture, ASP.NET Core,
-                            Python (FastAPI), CQRS, REST API design, async patterns, microservices
+Backend & Runtime:      .NET Core (C#) Clean Architecture, ASP.NET Core,
+                        Python (FastAPI), CQRS, REST API design, async patterns, microservices
                             
-Azure Integration:          Logic Apps, Service Bus, Blob Storage, API Management, Event Grid,
-                            Container Apps — XSLT transformation, Canonical Data Model (CDM), Bicep (IaC), Azure DevOps Pipelines
+Azure Integration:      Logic Apps, Service Bus, Blob Storage, API Management, Event Grid,
+                        Container Apps — XSLT transformation, Canonical Data Model (CDM), Bicep (IaC), Azure DevOps Pipelines
                             
-Data / Storage:             React · Next.js · TypeScript · Redux · WebSockets · Go.js canvas
-Frontend & Runtime:         React.js, Next.js, TypeScript, Redux, WebSockets, JavaScript (ES6+)
-Languages:                  C#, Python, TypeScript, JavaScript, SQL
-Leadership:                 Hiring & technical interviewing, Mentorship, code review & doctrine authorship
+Data / Storage:         React · Next.js · TypeScript · Redux · WebSockets · Go.js canvas
+Frontend & Runtime:     React.js, Next.js, TypeScript, Redux, WebSockets, JavaScript (ES6+)
+Languages:              C#, Python, TypeScript, JavaScript, SQL
+Leadership:             Hiring & technical interviewing, Mentorship, code review & doctrine authorship
 ```
 
 ---
