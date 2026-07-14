@@ -54,15 +54,12 @@
 ## Stack I actually ship
 
 ```
-Backend:          .NET Core (C#) · Python (FastAPI · Flask) · Node.js (Express) · Go
-Azure:            Logic Apps · Service Bus · Blob Storage · APIM · Event Grid · Bicep · DevOps Pipelines
-Frontend:         React · Next.js · TypeScript · Redux · WebSockets · Go.js canvas
-Data:             PostgreSQL · MongoDB (indexing · relational restructure) · MySQL · Redis
-DevOps:           Docker · GitHub Actions · Azure DevOps Pipelines · CI/CD
-Architecture:     Clean Architecture · multi-threaded order execution · event-driven pipelines
-                  XSLT transformation · Canonical Data Model · multi-tenant SaaS · JWT + RBAC
-AI / Learning:    Azure OpenAI · RAG pipelines · LangChain (Python) — in progress
-Languages:        C# · Python · TypeScript · JavaScript · Go · SQL
+Backend & Runtime:          .NET Core (C#) Clean Architecture, ASP.NET Core, Python (FastAPI), CQRS, REST API design, async patterns, microservices
+Azure Integration:          Logic Apps, Service Bus, Blob Storage, API Management, Event Grid, Container Apps — XSLT transformation, Canonical Data Model (CDM), Bicep (IaC), Azure DevOps Pipelines
+Data / Storage:             React · Next.js · TypeScript · Redux · WebSockets · Go.js canvas
+Frontend & Runtime:         React.js, Next.js, TypeScript, Redux, WebSockets, JavaScript (ES6+)
+Languages:                  C#, Python, TypeScript, JavaScript, SQL
+Leadership:                 Hiring & technical interviewing, Mentorship, code review & doctrine authorship
 ```
 
 ---
